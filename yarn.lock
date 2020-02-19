@@ -889,16 +889,16 @@
     postcss-functions "^3.0.0"
 
 "@dword-design/babel-config@^1.0.0", "@dword-design/babel-config@^1.0.10", "@dword-design/babel-config@^1.0.4", "@dword-design/babel-config@^1.1.0":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@dword-design/babel-config/-/babel-config-1.1.3.tgz#cb0efadd8c46827b3183159235b2359e4ebfdf80"
-  integrity sha512-V1H+9oAgZ2cOql+rUIZ0yn5ntpOYsTHelRG6LM3r3TudJdqPTsip8iy7jkyPJWgKhc9uTsIX/uXHxqmxU/EtAw==
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@dword-design/babel-config/-/babel-config-1.1.4.tgz#2cdf8aeb2c12fb4523bf82122d35975af48b1ccd"
+  integrity sha512-ipc3VzoLS6ixwKQLMGyDfdb43GPlo3xVtCz4UBfgfyVFx7V/myUmMR6MtWEKPyLykfPIsBP/nmZmciLZuW485A==
   dependencies:
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.4.4"
     "@babel/plugin-proposal-optional-chaining" "^7.6.0"
     "@babel/plugin-proposal-pipeline-operator" "^7.5.0"
     "@babel/preset-env" "^7.6.3"
     "@dword-design/functions" "^2.2.2"
-    "@vue/babel-preset-jsx" dword-design/jsx#fork/babel-preset-jsx
+    "@vue/babel-preset-jsx" "github:dword-design/jsx#fork/babel-preset-jsx"
     babel-plugin-add-module-exports "^1.0.2"
     babel-plugin-transform-imports "^2.0.0"
     get-package-name "^1.0.0"
@@ -970,7 +970,7 @@
     bin-links "^2.0.0"
     commitizen "^4.0.3"
     cz-conventional-changelog "^3.1.0"
-    depcheck dword-design/depcheck#fork
+    depcheck "github:dword-design/depcheck#fork"
     execa "^4.0.0"
     expect "^25.1.0"
     fs-extra "^8.1.0"
@@ -990,7 +990,7 @@
     pre-commit "^1.2.2"
     resolve-from "^5.0.0"
     safe-readfile "^1.0.2"
-    safe-require dword-design/node-safe-require#fork
+    safe-require "github:dword-design/node-safe-require#fork"
     semantic-release "^17.0.3"
     sort-package-json "^1.39.1"
     spdx-expression-parse "^3.0.0"
@@ -1015,7 +1015,7 @@
     "@dword-design/babel-config" "^1.0.10"
     "@dword-design/depcheck-execa-detector" "^1.0.0"
     "@dword-design/get-depcheck-babel-parser" "^1.0.0"
-    depcheck dword-design/depcheck#fork
+    depcheck "github:dword-design/depcheck#fork"
 
 "@dword-design/depcheck-execa-detector@^1.0.0":
   version "1.0.0"
@@ -1089,9 +1089,9 @@
     tinycolor2 "^1.4.1"
 
 "@dword-design/get-depcheck-babel-parser@^1.0.0":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@dword-design/get-depcheck-babel-parser/-/get-depcheck-babel-parser-1.0.3.tgz#94cc1c5ffacbb45bb5195211cfffa46bd182af4f"
-  integrity sha512-Y4jyI+ESTeMNsZArfBmIcFiFwn1YIdVf6+2Icj0I8IwDz3MHZyO9/SIsJ/uqlteP5c05DUaLDQ05S7mGwODIMQ==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@dword-design/get-depcheck-babel-parser/-/get-depcheck-babel-parser-1.0.4.tgz#a174fdda73355672ad136576be972aeef01dd0af"
+  integrity sha512-b7zYizkWS1JK3W5w/lYO+ruWp6KFPjF/UGD+nn7NrKgMomoGj1y2FI7pRljTmFMWxINfLDhIsGsCWXvbCdqEIw==
   dependencies:
     "@babel/core" "^7.7.7"
     fs-extra "^8.1.0"
@@ -1112,7 +1112,7 @@
   integrity sha512-vpooj0pJhyVg4BK35cbQ7z9QPhb0M/YVUsEecyUcbbLullp6qP2t+ARE3M83Hwrtv1gfQM6m7HmWqRj1sqCc7A==
   dependencies:
     fs-extra "^8.1.0"
-    jsontosass dword-design/jsontosass#fork
+    jsontosass "github:dword-design/jsontosass#fork"
     resolve-from "^5.0.0"
 
 "@dword-design/nuxt-atomizer@^1.0.0":
@@ -2152,8 +2152,9 @@
     lodash.kebabcase "^4.1.1"
     svg-tags "^1.0.0"
 
-"@vue/babel-preset-jsx@^1.1.2", "@vue/babel-preset-jsx@dword-design/jsx#fork/babel-preset-jsx":
+"@vue/babel-preset-jsx@^1.1.2", "@vue/babel-preset-jsx@github:dword-design/jsx#fork/babel-preset-jsx":
   version "1.1.2"
+  uid "2d986d9fe3881743b3efe9755f48bb3eade788b4"
   resolved "https://codeload.github.com/dword-design/jsx/tar.gz/2d986d9fe3881743b3efe9755f48bb3eade788b4"
   dependencies:
     "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
@@ -2172,6 +2173,7 @@
 
 "@vue/babel-sugar-inject-h@dword-design/jsx#fork/babel-sugar-inject-h":
   version "1.1.2"
+  uid b98aba393b6502f1d98c3757a68124e7ea1faa49
   resolved "https://codeload.github.com/dword-design/jsx/tar.gz/b98aba393b6502f1d98c3757a68124e7ea1faa49"
   dependencies:
     "@babel/plugin-syntax-jsx" "^7.2.0"
@@ -5224,6 +5226,7 @@ dedent@0.7.0:
 
 dedent@dword-design/dedent#fork:
   version "0.7.0"
+  uid c8d46e5017d60504657c2d01b59082c0329a12a7
   resolved "https://codeload.github.com/dword-design/dedent/tar.gz/c8d46e5017d60504657c2d01b59082c0329a12a7"
   dependencies:
     babel-plugin-add-module-exports "^1.0.2"
@@ -5320,6 +5323,7 @@ delegates@^1.0.0:
 
 "depcheck@github:dword-design/depcheck#fork":
   version "0.0.1"
+  uid "8a9eb41006c2c6f9cbd79e4e68bf265e1c1df1dc"
   resolved "https://codeload.github.com/dword-design/depcheck/tar.gz/8a9eb41006c2c6f9cbd79e4e68bf265e1c1df1dc"
   dependencies:
     "@babel/parser" "^7.8.4"
@@ -5707,6 +5711,7 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0, end-of-stream@^1.4.1:
 
 endent@dword-design/endent#fork:
   version "1.4.0"
+  uid be5433db67eaec07c6c9d00ba3bed2ed946dc664
   resolved "https://codeload.github.com/dword-design/endent/tar.gz/be5433db67eaec07c6c9d00ba3bed2ed946dc664"
   dependencies:
     dedent dword-design/dedent#fork
@@ -6767,6 +6772,7 @@ fsevents@^1.2.7:
   dependencies:
     bindings "^1.5.0"
     nan "^2.12.1"
+    node-pre-gyp "*"
 
 fsevents@^2.1.2, fsevents@~2.1.1, fsevents@~2.1.2:
   version "2.1.2"
@@ -6902,6 +6908,7 @@ get-value@^2.0.3, get-value@^2.0.6:
 
 get-workspaces@dword-design/changesets#fork/get-workspaces:
   version "0.6.0"
+  uid ac7c541f2d78ca677ea14fc9ce3664a4868ef6de
   resolved "https://codeload.github.com/dword-design/changesets/tar.gz/ac7c541f2d78ca677ea14fc9ce3664a4868ef6de"
   dependencies:
     "@changesets/types" "^0.4.0"
@@ -8558,6 +8565,7 @@ jsonparse@^1.2.0:
 
 "jsontosass@github:dword-design/jsontosass#fork":
   version "0.1.1"
+  uid a63dc485c9bbb76c2ef4c2128f5e11a70394b68b
   resolved "https://codeload.github.com/dword-design/jsontosass/tar.gz/a63dc485c9bbb76c2ef4c2128f5e11a70394b68b"
   dependencies:
     extend "^3.0.0"
@@ -10220,6 +10228,7 @@ npm@^6.10.3:
     cmd-shim "^3.0.3"
     columnify "~1.5.4"
     config-chain "^1.1.12"
+    debuglog "*"
     detect-indent "~5.0.0"
     detect-newline "^2.1.0"
     dezalgo "~1.0.3"
@@ -10234,6 +10243,7 @@ npm@^6.10.3:
     has-unicode "~2.0.1"
     hosted-git-info "^2.8.5"
     iferr "^1.0.2"
+    imurmurhash "*"
     infer-owner "^1.0.4"
     inflight "~1.0.6"
     inherits "^2.0.4"
@@ -10252,8 +10262,14 @@ npm@^6.10.3:
     libnpx "^10.2.2"
     lock-verify "^2.1.0"
     lockfile "^1.0.4"
+    lodash._baseindexof "*"
     lodash._baseuniq "~4.6.0"
+    lodash._bindcallback "*"
+    lodash._cacheindexof "*"
+    lodash._createcache "*"
+    lodash._getnative "*"
     lodash.clonedeep "~4.5.0"
+    lodash.restparam "*"
     lodash.union "~4.6.0"
     lodash.uniq "~4.5.0"
     lodash.without "~4.4.0"
@@ -14871,6 +14887,7 @@ wcwidth@^1.0.0:
 
 webpack-atomizer-loader@dword-design/webpack-atomizer-loader#fork:
   version "1.0.2"
+  uid "7fd9e8d7eab26934de91eac026cf37589234772e"
   resolved "https://codeload.github.com/dword-design/webpack-atomizer-loader/tar.gz/7fd9e8d7eab26934de91eac026cf37589234772e"
   dependencies:
     atomizer "^3.5.1"
